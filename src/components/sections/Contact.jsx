@@ -45,7 +45,7 @@ const Contact = () => {
   return (
     <section id="contact" className="min-h-screen flex items-center justify-center py-20">
         <RevealOnScroll>
-            <div className="px-4 w-full max-w-md mx-auto">
+            <div className="px-4 w-[95%] sm:w-[600px] mx-auto">
                 <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">Get In Touch</h2>
 
                 {notification.show && (
@@ -91,7 +91,7 @@ const Contact = () => {
                                 value={formData.message}
                                 className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5 [&:-webkit-autofill]:bg-white/5 [&:-webkit-autofill]:text-white [&:-webkit-autofill]:shadow-[0_0_0_1000px_rgba(255,255,255,0.05)_inset]"
                                 placeholder="Your message here..."
-                                rows="6" 
+                                rows="5" 
                                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                         />
                     </div>
