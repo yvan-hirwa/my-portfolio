@@ -1,4 +1,4 @@
-import RevealOnScroll from "../revealOnScroll";
+import RevealOnScroll from "../RevealOnScroll.jsx";
 
 const About = () => {
 
